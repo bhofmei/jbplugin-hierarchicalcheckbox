@@ -83,10 +83,10 @@ return declare( JBrowsePlugin,
                     var isCollapsed = lang.getObject( 'collapsed.'+categoryPath, false, thisB.state );
                     var checkBoxId = categoryGoodName+'_checkBox';
                     
-                    var labelDom = domConstruct.create('label', {title:'select/deselect all tracks from this category', className:'category-select'});
+                    var labelDom = domConstruct.create('label', {'title':'select/deselect all tracks from this category', 'className':'category-select'});
                     domConstruct.create( 'span',{innerHTML:'select all from category'},labelDom );
                     
-                    var checkDom = domConstruct.create( 'input',{type:'checkbox', class:'hierachcheck', id:checkBoxId, value:categoryPath}, labelDom );
+                    var checkDom = domConstruct.create( 'input',{'type':'checkbox', 'class':'hierachcheck', 'id':checkBoxId, 'value':categoryPath}, labelDom );
                     
                     var c = new TitlePane(
                         { title: '<span class="categoryName">'+categoryName+'</span>' +' <span class="trackCount">0</span>',
