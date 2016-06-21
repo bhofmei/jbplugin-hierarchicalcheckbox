@@ -11,9 +11,8 @@ For JBrowse 1.11.6+ in the _JBrowse/plugins_ folder, type:
 ##Activate
 Add this to jbrowse.conf:
 
-    "plugins": [
-        'HierarchicalCheckboxPlugin'
-    ],
+    [ plugins. HierarchicalCheckboxPlugin ]
+    location = plugins/HierarchicalCheckboxPlugin
 
 If that doesn't work, add this to jbrowse_conf.json:
 
