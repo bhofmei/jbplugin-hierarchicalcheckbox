@@ -16,7 +16,7 @@ Unzip the downloaded folder, place in _JBrowse/plugins_, and rename the folder _
 ##Activate
 Add this to _jbrowse.conf_ under `[GENERAL]`:
 
-    [ plugins. HierarchicalCheckboxPlugin ]
+    [ plugins.HierarchicalCheckboxPlugin ]
     location = plugins/HierarchicalCheckboxPlugin
 
 If that doesn't work, add this to _jbrowse_conf.json_:
