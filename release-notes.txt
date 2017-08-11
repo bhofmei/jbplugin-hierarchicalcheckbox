@@ -1,0 +1,5 @@
+# Release Notes
+
+v1.0.0 - Aug 11, 2017
+- First official named release
+- Note: nothing has changed to the underlying code

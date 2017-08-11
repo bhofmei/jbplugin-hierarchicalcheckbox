@@ -35,7 +35,7 @@ define("HierarchicalCheckboxPlugin/main", [
 return declare( JBrowsePlugin,
 {
     constructor: function( args ) {
-        //console.log("plugin HierarchicalCheckboxPlugin constructor");
+        console.log("HierarchicalCheckboxPlugin starting");
         
         var thisB = this;
         var browser = this.browser;

@@ -3,7 +3,7 @@ Adds a 'select all from category' checkbox to all categories in hierarchical tra
 
 When you check/uncheck the box, it applies to all tracks in that category and any subcategories
 
-##Install
+## Install
 
 For JBrowse 1.11.6+ in the _JBrowse/plugins_ folder, type:  
 ``git clone https://github.com/bhofmei/jbplugin-hierarchicalcheckbox.git HierarchicalCheckboxPlugin``
@@ -13,7 +13,7 @@ For JBrowse 1.11.6+ in the _JBrowse/plugins_ folder, type:
 downloaded the latest release version at [releases](https://github.com/bhofmei/jbplugin-hierarchicalcheckbox/releases).  
 Unzip the downloaded folder, place in _JBrowse/plugins_, and rename the folder _HierarchicalCheckboxPlugin_
 
-##Activate
+## Activate
 Add this to _jbrowse.conf_ under `[GENERAL]`:
 
     [ plugins.HierarchicalCheckboxPlugin ]
@@ -25,5 +25,5 @@ If that doesn't work, add this to _jbrowse_conf.json_:
         "HierarchicalCheckboxPlugin" : { "location" : "plugins/HierarchicalCheckboxPlugin" }
     }
     
-##Future Plans
+## Future Plans
 - fix bug where the _select all_ checkboxes are not checked/indeterminate at initial page loading
