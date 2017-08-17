@@ -1,8 +1,8 @@
 {
-  "name": "HierarchicalCheckboxPlugin",
+  "name": "jbplugin-hierarchicalcheckbox",
   "version": "1.0.0",
   "description": "Adds a select all from category checkbox to all categories in hierarchical tracklist",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,6 @@
     "jbrowse"
   ],
   "author": "Brigitte Hofmeister",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/bhofmei/jbplugin-hierarchicalcheckbox#readme"
 }
