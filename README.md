@@ -25,5 +25,11 @@ If that doesn't work, add this to _jbrowse_conf.json_:
         "HierarchicalCheckboxPlugin" : { "location" : "plugins/HierarchicalCheckboxPlugin" }
     }
     
-## Future Plans
-- fix bug where the _select all_ checkboxes are not checked/indeterminate at initial page loading
+## Usage
+
+![demo image](img/demo_image.png)
+Each category and subcategory will now have a checkbox under the title which says "select all in category". This checkbox can be used to select all or deselect all tracks within that category and subcategories.
+
+When some, but not all, tracks of a category are selected, the checkbox will show an intermediate "check". Clicking this will select all from the category.
+
+There is a known issue where the category check boxes are initially unchecked after page loading.
