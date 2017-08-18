@@ -252,7 +252,7 @@ define("HierarchicalCheckboxPlugin/main", [
               if (catList.length == 0)
                 return [0, 0];
               var newCat = cat.categories[catList[0]];
-              var keepCatList = lang.clone(catList.slice(1));
+              var keepCatList = lang.clone(catList.splice(1));
               var countAr = _countCheckedTracks(newCat, catList.splice(1));
               var otherCats = Object.keys(newCat.categories);
 
